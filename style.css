@@ -1,0 +1,69 @@
+.sticky-side {
+    position:fixed;
+    top: 7%;
+    bottom: auto;
+    left: 60%;
+    right: 40%;
+    width: 20%;
+} 
+.navbar {
+    height: 54px;
+    background-color:white;
+    border-style: solid;
+    border-top-color: white;
+    border-left-color: white;
+    border-right-color: white;
+    border-bottom-color: lightgray;
+}
+::placeholder{
+    text-align: center;
+    mask-image: "assets/search-solid.svg";
+}
+.input  {
+    margin-right: 10%;
+    margin-left: 35%;
+    width: 250px;
+    border-radius: 5px;
+    border-style: none;
+    background-color:ghostwhite;
+}
+
+input#search {
+    background-image: url('https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/search-512.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    text-indent: 20px;
+    /* Extra Styling */
+
+    transition:0.1s;
+}
+.home-icon {
+    background-image: url(https://icons8.com/icons/set/instagram-home);
+}
+.stories {
+    border-style: groove;
+    border-radius: 50px;
+    border-color: red;
+    float:left;
+}
+.pic {
+    border-style: none;
+    border-radius: 50px;
+    border-color: none;
+}
+.storybar {
+    border-style: solid;
+    color: grey;
+    border-width: thin;
+}
+.story-name {
+    text-decoration: none;
+    color: black;
+    font-size:10px;  
+}
+.text-stories {
+    text-align: center;
+}
+.box {
+    float: left;
+}
